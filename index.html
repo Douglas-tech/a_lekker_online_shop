@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A lekker Online Shopping page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .img {
+      transition: transform .2s;
+    }
+    .img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+<h1>A lekker online shopping page</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product1.jpg" class="card-img-top img-fluid" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">R100</p>
+            <a href="product1.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product2.jpg" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">R200</p>
+            <a href="product2.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product3.jpg" class="card-img-top img-fluid" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">R300</p>
+            <a href="product3.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product4.jpg" class="card-img-top img-fluid" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">R400</p>
+            <a href="product4.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product5.jpg" class="card-img-top img-fluid" alt="Product 5">
+          <div class="card-body">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">R500</p>
+            <a href="product5.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product6.jpg" class="card-img-top img-fluid" alt="Product 6">
+          <div class="card-body">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">R600</p>
+            <a href="product6.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product7.jpg" class="card-img-top img-fluid" alt="Product 7">
+          <div class="card-body">
+            <h5 class="card-title">Product 7</h5>
+            <p class="card-text">R700</p>
+            <a href="product7.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product8.jpg" class="card-img-top img-fluid" alt="Product 8">
+          <div class="card-body">
+            <h5 class="card-title">Product 8</h5>
+            <p class="card-text">R800</p>
+            <a href="product8.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product9.jpg" class="card-img-top img-fluid" alt="Product 9">
+          <div class="card-body">
+            <h5 class="card-title">Product 9</h5>
+            <p class="card-text">R900</p>
+            <a href="product9.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+            <img src="product10.jpg" class="card-img-top img-fluid" alt="Product 10">
+          <div class="card-body">
+            <h5 class="card-title">Product 10</h5>
+            <p class="card-text">R1000</p>
+            <a href="product10.html" target="_blank" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('button.buy-now').click(function() {
+    window.open('product-page.html', '_blank');
+  });
+});
+</script>
+
+</div>
+</body>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="company-logo.png" alt="Company Logo">
+      </div>
+      <div class="col-md-9">
+        <form>
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPhone" class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+              <input type="tel" class="form-control" id="inputPhone" placeholder="Enter your phone number">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
